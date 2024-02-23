@@ -1,0 +1,40 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* start nagivigation */
+
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0 1rem 0 3rem;
+}
+
+.header_area .main-menu .navbar .container-fluid{
+    padding: 1rem 6rem;
+    background-color: #ffffff;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.9rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* end nagivigation */
